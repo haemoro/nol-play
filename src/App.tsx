@@ -1,7 +1,8 @@
-import {PictureGuessingGame} from './components/PictureGuessingGame'
+import React from 'react'
+import GameSelector from './components/GameSelector'
 
 function App() {
-  return <PictureGuessingGame />
+  return <GameSelector />
 }
 
 export default App
